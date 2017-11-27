@@ -1,0 +1,13 @@
+[INFO ] 2017-08-22 09:49:20,185                      main.MenuManager     - 菜单创建成功！
+  [ERROR] 2017-08-22 13:20:41,750                      until.WeixinUtil     - 创建菜单失败 errcode:40027 errmsg:invalid sub button url size hint: [7UdDMA0158vr23]
+  [INFO ] 2017-08-22 13:20:41,752                      main.MenuManager     - 菜单创建失败，错误码：40027
+  [ERROR] 2017-08-22 13:20:52,177                      until.WeixinUtil     - 创建菜单失败 errcode:40027 errmsg:invalid sub button url size hint: [negTEa0169vr20]
+  [INFO ] 2017-08-22 13:20:52,179                      main.MenuManager     - 菜单创建失败，错误码：40027
+  [ERROR] 2017-08-22 13:21:55,933                      until.WeixinUtil     - 创建菜单失败 errcode:40027 errmsg:invalid sub button url size hint: [10oMBA0232vr23]
+  [INFO ] 2017-08-22 13:21:55,935                      main.MenuManager     - 菜单创建失败，错误码：40027
+  [INFO ] 2017-08-22 13:24:02,787                      main.MenuManager     - 菜单创建成功！
+  [INFO ] 2017-08-22 13:24:35,314                      main.MenuManager     - 菜单创建成功！
+  [INFO ] 2017-08-22 13:25:35,119                      main.MenuManager     - 菜单创建成功！
+  [INFO ] 2017-08-22 13:26:40,307                      main.MenuManager     - 菜单创建成功！
+  [INFO ] 2017-08-22 13:28:27,765                      main.MenuManager     - 菜单创建成功！
+  

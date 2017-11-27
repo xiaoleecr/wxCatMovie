@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="wxCatMovie"
+  id="myeclipse.1502441169117"
+  context-root="/wxCatMovie"
+  j2ee-spec="5.0"
+  archive="wxCatMovie.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

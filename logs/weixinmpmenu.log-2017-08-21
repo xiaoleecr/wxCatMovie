@@ -1,0 +1,33 @@
+[ERROR] 2017-08-21 16:28:10,406                      until.WeixinUtil     - https request error:{}
+  java.lang.ClassCastException: until.MyX509TrustManager cannot be cast to javax.net.ssl.TrustManager
+	at until.WeixinUtil.httpRequest(WeixinUtil.java:40)
+	at until.WeixinUtil.getAccessToken(WeixinUtil.java:105)
+	at main.MenuManager.main(MenuManager.java:23)
+[ERROR] 2017-08-21 16:29:25,763                      until.WeixinUtil     - https request error:{}
+  javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No X509TrustManager implementation available
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1868)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:276)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:270)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1337)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:154)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:868)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:804)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:998)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1294)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1321)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1305)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:523)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:153)
+	at until.WeixinUtil.httpRequest(WeixinUtil.java:57)
+	at until.WeixinUtil.getAccessToken(WeixinUtil.java:105)
+	at main.MenuManager.main(MenuManager.java:23)
+Caused by: java.security.cert.CertificateException: No X509TrustManager implementation available
+	at sun.security.ssl.DummyX509TrustManager.checkServerTrusted(SSLContextImpl.java:993)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1319)
+	... 13 more
+[ERROR] 2017-08-21 16:39:25,251                      until.WeixinUtil     - 创建菜单失败 errcode:48001 errmsg:api unauthorized hint: [_GbzPa0683sz10!]
+  [INFO ] 2017-08-21 16:39:25,252                      main.MenuManager     - 菜单创建失败，错误码：48001
+  [INFO ] 2017-08-21 17:44:49,986                      main.MenuManager     - 菜单创建成功！
+  
